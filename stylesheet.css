@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(75, 111, 143);
+  font-family: cursive;
+}
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 35pt;
+}
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+#input {
+  cursor: pointer;
+  border-radius: 20px;
+  padding: 10px;
+  width: 400px;
+}
+
+#display-data {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  gap: 20px;
+  justify-content: center;
+  padding: 10px;
+}
+
+.item {
+  padding: 20px;
+  font-size: 20px;
+  text-align: start;
+  color: white;
+  border: 1px solid white;
+  transition: all ease 2s;
+}
+.item:hover {
+  box-shadow: 0 0 2px 4px rgba(69, 69, 69, 0.8);
+}
